@@ -5,20 +5,483 @@
   "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
   "sites": [
     {
+      "key": "布布追剧",
+      "name": "布丁 | 𝟰𝐊主力",
+      "type": 3,
+      "api": "https://clun.top/py/bubuzhuiju.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "gulu",
+      "name": "布丁 | 𝟰𝐊影视①",
+      "type": 3,
+      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/tushen6/James/main/py/%E5%92%95%E5%99%9C%E5%92%95%E5%99%9C.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "可可影视",
+      "name": "布丁 | 𝟰𝐊影视③",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/py/%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "魔都资源",
+      "name": "布丁 | 𝟰𝐊影视④",
+      "type": 1,
+      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "360zy",
+      "name": "布丁 | 𝟰𝐊影视⑤",
+      "type": 1,
+      "api": "https://360zy.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "古装片",
+        "悬疑片",
+        "犯罪片",
+        "灾难片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "欧美动漫",
+        "日韩动漫",
+        "现代都市",
+        "脑洞悬疑",
+        "年代穿越",
+        "古装仙侠",
+        "女频恋爱",
+        "成长逆袭",
+        "反转爽剧"
+      ],
+      "quickSearch": 1
+    },
+    {
+      "key": "hongniu_红牛",
+      "name": "布丁 | 𝟰𝐊秒播",
+      "type": 1,
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "VIP兔",
+      "name": "布丁 | 𝟰𝐊秒播①",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/py/VIP%E5%85%94.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "猫眼资源",
+      "name": "布丁 | 𝟰𝐊秒播②",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "搜索url": "https://www.maoyanzy.com/index.php/vod/search.html?wd={wd}",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
       "key": "豆瓣",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
+      "name": "布丁 | 𝟰𝐊秒播③",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
-      "key": "配置中心",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
+      "key": "csp_xml_新浪",
+      "name": "布丁 | 𝟰𝐊秒播④",
+      "type": 1,
+      "api": "https://api.xinlangapi.com/xinlangapi.php/provide//vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "纪录片",
+        "动漫电影",
+        "大陆剧",
+        "欧美剧",
+        "港澳剧",
+        "韩剧",
+        "台湾剧",
+        "日剧",
+        "海外剧",
+        "泰剧",
+        "体育",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ],
+      "changeable": 1
+    },
+    {
+      "key": "U酷资源風",
+      "name": "布丁 | 𝟰𝐊秒播⑤",
+      "type": 1,
+      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "categories": [
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "国产剧",
+        "港澳剧",
+        "日剧",
+        "欧美剧",
+        "动漫电影",
+        "台湾剧",
+        "韩剧",
+        "泰剧",
+        "记录片",
+        "短剧",
+        "奇幻片",
+        "犯罪片"
+      ],
+      "header": {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
+      },
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "八戒",
+      "name": "布丁 | 𝟰𝐊秒播⑥",
       "type": 3,
-      "api": "csp_Config",
-      "searchable": 0,
+      "api": "csp_AppBJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "赏月动漫",
+      "name": "布丁 | 𝟰𝐊动漫",
+      "type": 3,
+      "api": "csp_AnimeTsukimi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "稀饭动漫",
+      "name": "布丁 | 𝟰𝐊动漫①",
+      "type": 3,
+      "api": "csp_AnimeXifan",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "巴士动漫",
+      "name": "布丁 | 动漫秒播",
+      "type": 3,
+      "api": "csp_AnimeBashi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "吉里动漫",
+      "name": "布丁 | 𝟰𝐊动漫②",
+      "type": 3,
+      "api": "csp_AnimeGiri",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "花子动漫",
+      "name": "布丁 | 𝟰𝐊动漫③",
+      "type": 3,
+      "api": "csp_AnimeHuazi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "漫国动漫",
+      "name": "布丁 | 𝟰𝐊秒播④",
+      "type": 3,
+      "api": "csp_AnimeGHG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "八戒影视",
+      "name": "天蓬 | 𝟰𝐊秒播⑤",
+      "type": 3,
+      "api": "csp_AppBJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "独播影视",
+      "name": "布丁 | 秒播+弹幕",
+      "type": 3,
+      "api": "csp_Duboku",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "金牌影视",
+      "name": "布丁 | 超清秒播",
+      "type": 3,
+      "api": "csp_Jpys",
+      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "爱看机器人",
+      "name": "布丁 | 超清秒播①",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "看剧",
+      "name": "布丁 | 超清秒播②",
+      "type": 3,
+      "api": "csp_KanJuAI",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "懂片",
+      "name": "识片 | 超清秒播③",
+      "type": 3,
+      "api": "csp_DongPian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "瓜子影视",
+      "name": "葵花籽 | 超清秒播④",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "星芽短剧",
+      "name": "布丁 | 𝟰𝐊短剧",
+      "type": 3,
+      "api": "csp_ShortXingya",
+      "genre": "shortdrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "河马短剧",
+      "name": "布丁 | 短剧秒播",
+      "type": 3,
+      "api": "csp_ShortHema",
+      "genre": "shortdrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "七猫短剧",
+      "name": "布丁 | 短剧秒播①",
+      "type": 3,
+      "api": "csp_ShortQimao",
+      "genre": "shortdrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "围观短剧",
+      "name": "布丁 | 短剧秒播②",
+      "type": 3,
+      "api": "csp_ShortWeiguan",
+      "genre": "shortdrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "好看短剧",
+      "name": "布丁 | 全网短剧",
+      "type": 3,
+      "api": "csp_ShortHaokan",
+      "genre": "shortdrama",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "听友听书",
+      "name": "布丁 | 真人听书",
+      "type": 3,
+      "api": "csp_TingTingyou",
+      "searchable": 1,
+      "quickSearch": 0,
       "changeable": 0,
-      "indexs": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "世界听书",
+      "name": "布丁 | 全网听书",
+      "type": 3,
+      "api": "csp_TingShijie",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "博看听书",
+      "name": "布丁 | 全网听书①",
+      "type": 3,
+      "api": "csp_TingBokan",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
+    },
+    {
+      "key": "腾讯视频",
+      "name": "布丁 | 企鹅官方",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
+      "ext": "https://easy888.dpdns.org/lib/%E8%85%BE%E8%AE%AF.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "爱奇艺视频",
+      "name": "布丁 | 猕猴桃官方",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
+      "ext": "https://easy888.dpdns.org/lib/%E7%88%B1%E5%A5%87%E8%89%BA.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "优酷视频",
+      "name": "布丁 | 优裤官方",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
+      "ext": "https://easy888.dpdns.org/lib/%E4%BC%98%E9%85%B7.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "芒果视频",
+      "name": "布丁 | 芒果官方",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
+      "ext": "https://easy888.dpdns.org/lib/%E8%8A%92%E6%9E%9C.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "哔哩哔哩",
+      "name": "布丁 | B站官方",
+      "type": 3,
+      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
+      "ext": "https://easy888.dpdns.org/lib/B%E7%AB%99.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "key": "兔小贝",
+      "name": "布丁 | 超全幼教",
+      "type": 3,
+      "api": "csp_TuXiaoBei",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.618
+      }
+    },
+    {
+      "key": "贝乐虎",
+      "name": "布丁 | 超全幼教①",
+      "type": 3,
+      "api": "csp_BeiLeHu",
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0,
       "style": {
         "type": "rect",
         "ratio": 1.618
@@ -26,7 +489,7 @@
     },
     {
       "key": "CZ",
-      "name": "🏭┆厂长┆影视",
+      "name": "布丁 | 厂长影视",
       "type": 3,
       "api": "csp_Czsapp",
       "searchable": 1,
@@ -36,17 +499,8 @@
       "changeable": 1
     },
     {
-      "key": "瓜子影视",
-      "name": "葵花籽 | 影视",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "TVB云播",
-      "name": "无线 | 免扫2K",
+      "name": "布丁 | 无线免扫2K",
       "type": 3,
       "api": "csp_AppTVB",
       "searchable": 1,
@@ -56,7 +510,7 @@
     },
     {
       "key": "河豚影视",
-      "name": "气泡鱼 | 免扫2K",
+      "name": "布丁 | 气泡鱼免扫2K",
       "type": 3,
       "api": "csp_AppHT",
       "searchable": 1,
@@ -66,7 +520,7 @@
     },
     {
       "key": "枫叶影视",
-      "name": "红枫 | 免扫2K",
+      "name": "布丁 | 红枫免扫2K",
       "type": 3,
       "api": "csp_AppFENGYE",
       "searchable": 1,
@@ -76,7 +530,7 @@
     },
     {
       "key": "未来影视",
-      "name": "来日 | 免扫2K",
+      "name": "布丁 | 来日免扫2K",
       "type": 3,
       "api": "csp_AppWL",
       "searchable": 1,
@@ -86,7 +540,7 @@
     },
     {
       "key": "快映fox",
-      "name": "疾映 | 免扫2K",
+      "name": "布丁 | 疾映免扫2K",
       "type": 3,
       "api": "csp_AppFox",
       "searchable": 1,
@@ -97,7 +551,7 @@
     },
     {
       "key": "一起看影视",
-      "name": "共赏 | 免扫2K",
+      "name": "布丁 | 共赏免扫2K",
       "type": 3,
       "api": "csp_AppYQK",
       "searchable": 1,
@@ -107,7 +561,7 @@
     },
     {
       "key": "咕噜",
-      "name": "轱辘 | 免扫2K",
+      "name": "布丁 | 轱辘免扫2K",
       "type": 3,
       "api": "csp_Gulu",
       "searchable": 1,
@@ -117,7 +571,7 @@
     },
     {
       "key": "多多影视",
-      "name": "满满 | 免扫2K",
+      "name": "布丁 | 满满免扫2K",
       "type": 3,
       "api": "csp_YunDuo",
       "searchable": 1,
@@ -135,7 +589,7 @@
     },
     {
       "key": "大马猴影视",
-      "name": "巨猿 | 免扫2K",
+      "name": "布丁 | 巨猿免扫2K",
       "type": 3,
       "api": "csp_App3Q",
       "ext": {
@@ -154,7 +608,7 @@
     },
     {
       "key": "韩圈",
-      "name": "韩流 | 免扫2K",
+      "name": "布丁 | 韩流免扫2K",
       "type": 3,
       "api": "csp_Hxq",
       "searchable": 1,
@@ -164,7 +618,7 @@
     },
     {
       "key": "剧圈99",
-      "name": "剧坛 | 免扫2K",
+      "name": "布丁 | 剧坛免扫2K",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -181,7 +635,7 @@
     },
     {
       "key": "半日99",
-      "name": "半日暇 | 免扫2K",
+      "name": "布丁 | 半日暇免扫2K",
       "type": 3,
       "api": "csp_App99",
       "ext": {
@@ -198,7 +652,7 @@
     },
     {
       "key": "橘汁",
-      "name": "橘浆 | 免扫2K",
+      "name": "布丁 | 橘浆免扫2K",
       "type": 3,
       "api": "csp_AppJZ",
       "searchable": 1,
@@ -208,7 +662,7 @@
     },
     {
       "key": "王子",
-      "name": "储君 | 免扫2K",
+      "name": "布丁 | 储君免扫2K",
       "type": 3,
       "api": "csp_AppGet",
       "searchable": 1,
@@ -222,7 +676,7 @@
     },
     {
       "key": "Easy-EmbyJS",
-      "name": "简易 | Emby免扫2K",
+      "name": "布丁 | 简易免扫2K",
       "type": 3,
       "api": "https://easy888.dpdns.org/js/Emby-Easy.js",
       "searchable": 1,
@@ -231,184 +685,8 @@
       "filterable": 1
     },
     {
-      "key": "腾讯视频",
-      "name": "📺️企鹅 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E8%85%BE%E8%AE%AF.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "爱奇艺视频",
-      "name": "🥝猕猴桃 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E7%88%B1%E5%A5%87%E8%89%BA.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "优酷视频",
-      "name": "📺️优裤 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E4%BC%98%E9%85%B7.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "芒果视频",
-      "name": "🥭芒果 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/%E8%8A%92%E6%9E%9C.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "哔哩哔哩",
-      "name": "📺️B站 | 官方",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/js/drpy2.min.js",
-      "ext": "https://easy888.dpdns.org/lib/B%E7%AB%99.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "八戒影视",
-      "name": "天蓬 | 影视",
-      "type": 3,
-      "api": "csp_AppBJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "新影视",
-      "name": "新映 | 影视",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/%E6%96%B0%E5%BD%B1%E8%A7%86.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "VIP兔",
-      "name": "贵宾兔 | 影视",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/VIP%E5%85%94.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "可可影视",
-      "name": "可可豆 | 影视",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/%E5%8F%AF%E5%8F%AF%E5%BD%B1%E8%A7%86.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "FreeOK",
-      "name": "自由通 | 影视",
-      "type": 3,
-      "api": "https://easy888.dpdns.org/py/FreeOK.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "三六零",
-      "name": "圆周 | 视频",
-      "type": 3,
-      "api": "csp_SP360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "七猫短剧",
-      "name": "七尾猫 | 短剧",
-      "type": 3,
-      "api": "csp_ShortQimao",
-      "genre": "shortdrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "河马短剧",
-      "name": "水马 | 短剧",
-      "type": 3,
-      "api": "csp_ShortHema",
-      "genre": "shortdrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "围观短剧",
-      "name": "众览 | 短剧",
-      "type": 3,
-      "api": "csp_ShortWeiguan",
-      "genre": "shortdrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "好看短剧",
-      "name": "悦目 | 短剧",
-      "type": 3,
-      "api": "csp_ShortHaokan",
-      "genre": "shortdrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "星芽短剧",
-      "name": "星苗 | 短剧",
-      "type": 3,
-      "api": "csp_ShortXingya",
-      "genre": "shortdrama",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "看剧",
-      "name": "观剧 | 影视",
-      "type": 3,
-      "api": "csp_KanJuAI",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "懂片",
-      "name": "识片 | 影视",
-      "type": 3,
-      "api": "csp_DongPian",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "星辰影视",
-      "name": "星汉 | 影视",
+      "name": "布丁 | 星汉影视",
       "type": 3,
       "api": "csp_XingChen",
       "searchable": 1,
@@ -417,7 +695,7 @@
     },
     {
       "key": "旺旺影视",
-      "name": "兴旺 | 影视",
+      "name": "布丁 | 兴旺影视",
       "type": 3,
       "api": "csp_Wwys",
       "ext": "https://vip.wwgz.cn:5200",
@@ -426,114 +704,8 @@
       "changeable": 1
     },
     {
-      "key": "独播影视",
-      "name": "独映 | 影视",
-      "type": 3,
-      "api": "csp_Duboku",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "金牌影视",
-      "name": "金奖 | 影视",
-      "type": 3,
-      "api": "csp_Jpys",
-      "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "爱看机器人",
-      "name": "喜观 | 影视",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "1905",
-      "name": "一九零五 | 影视",
-      "type": 3,
-      "api": "csp_Web1905",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-    {
-      "key": "咕咕动漫",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
-      "type": 3,
-      "searchable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://www.gugu3.com",
-        "dataKey": "nKfZ8KX6JTNWRzTD",
-        "dataIv": "nKfZ8KX6JTNWRzTD"
-      },
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "赏月动漫",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
-      "type": 3,
-      "api": "csp_AnimeTsukimi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "稀饭动漫",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
-      "type": 3,
-      "api": "csp_AnimeXifan",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "巴士动漫",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
-      "type": 3,
-      "api": "csp_AnimeBashi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "吉里动漫",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
-      "type": 3,
-      "api": "csp_AnimeGiri",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "花子动漫",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
-      "type": 3,
-      "api": "csp_AnimeHuazi",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "漫国动漫",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
-      "type": 3,
-      "api": "csp_AnimeGHG",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "New6v",
-      "name": "新6V | 磁力",
+      "name": "布丁 | 新6V磁力",
       "type": 3,
       "api": "csp_New6v",
       "searchable": 1,
@@ -544,7 +716,7 @@
     },
     {
       "key": "央视PY",
-      "name": "央视 | 栏目",
+      "name": "布丁 | 央视栏目",
       "type": 3,
       "api": "https://easy888.dpdns.org/py/%E5%A4%AE%E8%A7%86.py",
       "searchable": 1,
@@ -554,7 +726,7 @@
     },
     {
       "key": "农民影视",
-      "name": "农民 • 在线",
+      "name": "布丁 | 农民在线",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -565,7 +737,7 @@
     },
     {
       "key": "csp_Dm84",
-      "name": "布丁 ┃ 𝟰𝐊秒播",
+      "name": "布丁 | 动漫巴士",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
@@ -589,16 +761,6 @@
       "name": "山楂 • 秒播",
       "type": 3,
       "api": "csp_AppSHANZ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "八戒",
-      "name": "八戒 • 秒播",
-      "type": 3,
-      "api": "csp_AppBJ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -735,53 +897,6 @@
         "分类url": "https://www.taozi007.com/",
         "搜索url": "https://www.taozi007.com/search/?wd={wd}"
       },
-      "changeable": 1
-    },
-    {
-      "key": "gulu",
-      "name": "🐧咕噜丨蓝光秒播",
-      "type": 3,
-      "api": "https://gh-proxy.org/https://raw.githubusercontent.com/tushen6/James/main/py/%E5%92%95%E5%99%9C%E5%92%95%E5%99%9C.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "布布追剧",
-      "name": "布布追剧",
-      "type": 3,
-      "api": "https://clun.top/py/bubuzhuiju.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "key": "✨YY影视✨",
-      "name": "UU|影视",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "主页url": "https://uuys.cc",
-        "二次截取": "module-page&&<div id=\"page\">",
-        "数组": "<a&&</div></div>",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "链接": "href=\"&&\"",
-        "副标题": "✨宝盒专享✨+module-item-note&&</div>",
-        "线路数组": "item tab-item&&</div>[排序:海湾资源>非凡播放>无尽资源]",
-        "线路标题": "宝盒专享✨+<span>&&</span>+【共+<small>&&</small>+集】",
-        "播放数组": "module-play-list\"&&</div>",
-        "播放标题": "宝盒专享✨+>&&</",
-        "简介": "✨宝盒提醒：请勿相信视频里的广告！✨+<p>&&</p >",
-        "搜索url": "https://uuys.cc/vodsearch/{wd}----------{pg}---.html",
-        "分类url": "https://uuys.cc/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类": "电影$2#电视剧$1#综艺$4#动漫$3"
-      },
-      "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -1462,7 +1577,7 @@
     },
     {
       "key": "aipan",
-      "name": "爱盼 ┃ 4K大片",
+      "name": "爱盼 | 4K大片",
       "type": 3,
       "api": "csp_AiPan",
       "searchable": 1,
@@ -1472,7 +1587,7 @@
     },
     {
       "key": "yidong",
-      "name": "移动 ┃ 4K极速",
+      "name": "移动 | 4K极速",
       "type": 3,
       "api": "csp_Yidong4K",
       "searchable": 1,
@@ -1729,15 +1844,6 @@
       "changeable": 1
     },
     {
-      "key": "hongniu_红牛",
-      "name": "🐂┃红牛┃采集",
-      "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "lziapi_量子",
       "name": "🥑┃量子┃采集",
       "type": 1,
@@ -1835,15 +1941,6 @@
       "changeable": 1
     },
     {
-      "key": "魔都资源",
-      "name": "魔都资源",
-      "type": 1,
-      "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "速博资源",
       "name": "速博资源",
       "type": 1,
@@ -1924,124 +2021,6 @@
       "changeable": 1
     },
     {
-      "key": "360zy",
-      "name": "360zy",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "古装片",
-        "悬疑片",
-        "犯罪片",
-        "灾难片",
-        "国产剧",
-        "香港剧",
-        "韩国剧",
-        "欧美剧",
-        "台湾剧",
-        "日本剧",
-        "海外剧",
-        "泰国剧",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺",
-        "国产动漫",
-        "欧美动漫",
-        "日韩动漫",
-        "现代都市",
-        "脑洞悬疑",
-        "年代穿越",
-        "古装仙侠",
-        "女频恋爱",
-        "成长逆袭",
-        "反转爽剧"
-      ],
-      "quickSearch": 1
-    },
-    {
-      "key": "csp_xml_新浪",
-      "name": "❤新浪资源",
-      "type": 1,
-      "api": "https://api.xinlangapi.com/xinlangapi.php/provide//vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "恐怖片",
-        "爱情片",
-        "剧情片",
-        "战争片",
-        "纪录片",
-        "动漫电影",
-        "大陆剧",
-        "欧美剧",
-        "港澳剧",
-        "韩剧",
-        "台湾剧",
-        "日剧",
-        "海外剧",
-        "泰剧",
-        "体育",
-        "国产动漫",
-        "日韩动漫",
-        "欧美动漫",
-        "港台动漫",
-        "海外动漫",
-        "大陆综艺",
-        "港台综艺",
-        "日韩综艺",
-        "欧美综艺"
-      ],
-      "changeable": 1
-    },
-    {
-      "key": "U酷资源風",
-      "name": "影视 • 尤酷[直连]",
-      "type": 1,
-      "api": "https://api.ukuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "categories": [
-        "综艺",
-        "动漫",
-        "动作片",
-        "喜剧片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "国产剧",
-        "港澳剧",
-        "日剧",
-        "欧美剧",
-        "动漫电影",
-        "台湾剧",
-        "韩剧",
-        "泰剧",
-        "记录片",
-        "短剧",
-        "奇幻片",
-        "犯罪片"
-      ],
-      "header": {
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1"
-      },
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
       "key": "csp_xml_优质",
       "name": "❤优质资源",
       "type": 1,
@@ -2077,16 +2056,6 @@
         "日韩综艺",
         "欧美综艺"
       ],
-      "changeable": 1
-    },
-    {
-      "key": "猫眼资源",
-      "name": "猫眼资源",
-      "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
-      "搜索url": "https://www.maoyanzy.com/index.php/vod/search.html?wd={wd}",
-      "searchable": 1,
-      "quickSearch": 1,
       "changeable": 1
     },
     {
@@ -2293,42 +2262,6 @@
       }
     },
     {
-      "key": "听友听书",
-      "name": "听众 | 听书",
-      "type": 3,
-      "api": "csp_TingTingyou",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "世界听书",
-      "name": "寰宇 | 听书",
-      "type": 3,
-      "api": "csp_TingShijie",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
-      "key": "博看听书",
-      "name": "广览 | 听书",
-      "type": 3,
-      "api": "csp_TingBokan",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list"
-      }
-    },
-    {
       "key": "戏曲多多",
       "name": "梨园 | 戏曲",
       "type": 3,
@@ -2352,37 +2285,11 @@
         "type": "rect",
         "ratio": 1.618
       }
-    },
-    {
-      "key": "兔小贝",
-      "name": "兔宝宝 | 知识",
-      "type": 3,
-      "api": "csp_TuXiaoBei",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
-    },
-    {
-      "key": "贝乐虎",
-      "name": "宝乐虎 | 知识",
-      "type": 3,
-      "api": "csp_BeiLeHu",
-      "searchable": 1,
-      "quickSearch": 0,
-      "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.618
-      }
     }
   ],
   "lives": [
     {
-      "name": "🐯牛虎 ┃ 官方综合",
+      "name": "🐯牛虎 | 官方综合",
       "type": 0,
       "url": "https://gh-proxy.org/https://raw.githubusercontent.com/niubihu1/tvbox/main/live.txt",
       "playerType": 1,
@@ -2391,7 +2298,7 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "📺EasyTV ┃ 熵侦卫视",
+      "name": "📺EasyTV | 熵侦卫视",
       "type": 0,
       "url": "https://easyzz.dpdns.org/api/tv.png",
       "timeout": 10,
@@ -2399,49 +2306,49 @@
       "playerType": 2
     },
     {
-      "name": "🌐Guovin ┃ 全网聚合",
+      "name": "🌐Guovin | 全网聚合",
       "type": 0,
       "url": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
     {
-      "name": "🎙️YY轮播 ┃ 影视公网",
+      "name": "🎙️YY轮播 | 影视公网",
       "type": 0,
       "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
     {
-      "name": "🐯虎牙 ┃ 一起看公网",
+      "name": "🐯虎牙 | 一起看公网",
       "type": 0,
       "url": "https://sub.ottiptv.cc/huyayqk.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
     {
-      "name": "🐟斗鱼 ┃ 一起看公网",
+      "name": "🐟斗鱼 | 一起看公网",
       "type": 0,
       "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
     {
-      "name": "🍚饭太硬 ┃ 精选频道",
+      "name": "🍚饭太硬 | 精选频道",
       "type": 0,
       "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
     {
-      "name": "📡自动更新 ┃ 全国电视",
+      "name": "📡自动更新 | 全国电视",
       "type": 0,
       "url": "https://z.szyyds.cn/iptv",
       "playerType": 1,
       "ua": "okhttp/3.15"
     },
     {
-      "name": "🐎小马综合 ┃ 高清直播",
+      "name": "🐎小马综合 | 高清直播",
       "type": 0,
       "url": "https://szyyds.cn/tv/live/x.txt",
       "playerType": 1,
