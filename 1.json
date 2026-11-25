@@ -6,14 +6,14 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🐯牛虎 ┃ 豆瓣热播",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "配置中心",
-      "name": "🐯牛虎 ┃ 配置中心",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_Config",
       "searchable": 0,
@@ -465,7 +465,7 @@
     },
     {
       "key": "咕咕动漫",
-      "name": "斑鸠 | 动漫",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "searchable": 1,
       "api": "csp_AppGet",
@@ -479,7 +479,7 @@
     },
     {
       "key": "赏月动漫",
-      "name": "望月 | 动漫",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_AnimeTsukimi",
       "searchable": 1,
@@ -488,7 +488,7 @@
     },
     {
       "key": "稀饭动漫",
-      "name": "米粥 | 动漫",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_AnimeXifan",
       "searchable": 1,
@@ -497,7 +497,7 @@
     },
     {
       "key": "巴士动漫",
-      "name": "公交 | 动漫",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_AnimeBashi",
       "searchable": 1,
@@ -506,7 +506,7 @@
     },
     {
       "key": "吉里动漫",
-      "name": "吉地 | 动漫",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_AnimeGiri",
       "searchable": 1,
@@ -515,7 +515,7 @@
     },
     {
       "key": "花子动漫",
-      "name": "花朵 | 动漫",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_AnimeHuazi",
       "searchable": 1,
@@ -524,7 +524,7 @@
     },
     {
       "key": "漫国动漫",
-      "name": "漫画邦 | 动漫",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_AnimeGHG",
       "searchable": 1,
@@ -565,7 +565,7 @@
     },
     {
       "key": "csp_Dm84",
-      "name": "🤣┃动漫┃巴士",
+      "name": "布丁 ┃ 𝟰𝐊秒播",
       "type": 3,
       "api": "csp_XBPQ",
       "searchable": 1,
